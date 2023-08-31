@@ -1,0 +1,27 @@
+.transfer {
+    background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    height: 700px;
+}
+
+.transfer-container {
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    margin: 0px auto;
+    color: white;
+}
+
+.transfer-line {
+    border: 2px solid green;
+    width: 500px;
+    padding: 4px;
+    margin: 5px auto;
+}
+.transfer-input {
+    margin: 5px 0px;
+    height: 500px;
+}
+
+input {
+    margin: 5px 0px;
+}

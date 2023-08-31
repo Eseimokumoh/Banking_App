@@ -1,0 +1,36 @@
+.message-message {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+
+.name {
+    position: absolute;
+    margin-top: -4rem;
+    color: #718096;
+    font-size: 0.75rem;
+}
+
+.sent-message {
+    background-color: #047857;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    float: right;
+    border-bottom-left-radius: 9999px;
+}
+
+.received-message {
+    background-color: #e5e5ea;
+    color: #000;
+    float: left;
+    border-bottom-right-radius: 9999px;
+}

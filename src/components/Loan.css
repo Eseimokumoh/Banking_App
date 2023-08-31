@@ -1,0 +1,100 @@
+.bgh{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.loan {
+    margin: 20px auto;
+}
+.loan-header {
+    position: relative;
+    width: 50%;
+    left: 160px;
+}
+
+.bghloan{
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/15/00/21/girl-2067378_1280.jpg");
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 150vh;
+
+}
+
+.transfer-title {
+    color: white;
+    position: relative;
+    bottom: 0.6rem;
+}
+
+.transfer-heading {
+    padding-left: 1rem;
+
+}
+
+.loanform{
+    width:50%;
+    margin: 20px 40px;
+}
+
+.bgh h1{
+    padding-top: 0.5em;
+}
+
+.bghloan h2{
+    padding-top: 0.5em;
+}
+
+.leftc{
+    position: relative;
+    bottom: 30px;
+    padding: 15%;
+}
+
+.rightc img{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    height: 50%;
+}
+
+.btn-3 {
+    position: relative;
+    left: 200px;
+}
+
+@media screen and (max-width: 650px){
+    .loan {
+        margin-left: 20px;
+    }
+    .loan-header {
+        margin-left: 20px;
+    }
+
+    .bgh{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .bghloan{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .loanform{
+        width: 100%;
+        padding-right: 2em;
+        margin-left: 20px;
+    }
+
+    .rightc{
+        display: none;
+    }
+
+    .leftc{
+        padding: 8%;
+    }
+}

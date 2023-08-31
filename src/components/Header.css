@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    color: white;
+    background: rgba(1, 125, 77, 0.855);
+    position: sticky;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    align-items: center;
+}
+
+.header_language {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+.darker {
+    background: rgba(1, 76, 47, 0.855);
+    cursor: pointer;
+    align-items: center;
+    height: 50px;
+}
+
+.hover {
+    height: 50px;
+    align-items: center;
+}
+.hover:hover {
+    background: rgba(1, 76, 47, 0.855);
+    cursor: pointer;
+}

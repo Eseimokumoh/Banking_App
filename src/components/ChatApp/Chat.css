@@ -1,0 +1,7 @@
+/* Main Container Style */
+.main-message {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
